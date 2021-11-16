@@ -12,13 +12,15 @@ body {
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: absolute;
-  left: 40%;
+  left: 50%;
   top: 50%;
-  transform: translate(-40%, -50%); }
+  transform: translate(-50%, -50%); }
   @media only screen and (max-width: 600px) {
     .card {
       width: 90%;
-      height: auto; } }
+      height: auto;
+      left: 40%;
+      transform: translate(-40%, -50%); } }
   .card .top img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
